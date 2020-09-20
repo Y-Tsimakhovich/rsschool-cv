@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#Summary">Summary</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Code">Code example</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Eng">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="name-block">
+            <div class="container">
+                <div class="its-me">
+                    <h1 class="name">Yaugheni Tsimakhovich</h1>
+                    <p class="special">Student in RS School</p>
+                </div>
+                <div class="myphoto">
+                    <img src="img/photo.jpg" alt="">
+                </div>
+                <ul class="social">
+                    <li><a href="skype:timmydelton"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="https://t.me/tievan"><i class="fa fa-telegram"></i></a></li>
+                    <li><a href="mailto: timmydelton@gmail.com"><i class="fa fa-google"></i></a></li>
+                    <li><a href="https://github.com/Y-Tsimakhovich"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div> 
+        </section>
+
+        <section class="summary" id="Summary"> 
+            <div class="container">
+                <h1 class="sum-title">Summary</h1>
+                <p class="sum-text">I want to become a front-end develover. I graduated from the Academy of MIA in 2014 . Currently working as a jurist. My strengths are stress resistance, the desire to learn something new, I learn quickly and am attentive to the little things in my work.</p>
+            </div>
+        </section>
+
+        <section class="skills" id="Skills">
+            <div class="container">
+                <h1 class="skills-title">Skills</h1>
+                <div class="skills-img">
+                    <img class="html" src="img/html5.png" alt="">
+                    <img class="css" src="img/css3.png" alt="">
+                    <img class="js" src="img/js.png" alt="">
+                    <img class="git" src="img/git.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="codex" id="Code">
+            <div class="container">
+                <h1 class="code-title">Code example</h1>
+                <div class="code-ex">
+                    <code><pre>
+                        function transform(arr) {
+                            if (!Array.isArray(arr)) {
+                              throw new Error();
+                          }
+                            let newArr = [];
+                            for (let i = 0; i < arr.length; i++) {
+                             if(arr[i] === '--discard-next') {
+                               if (arr.length - i >= 2) {
+                                i++
+                               }
+                             } else if(arr[i] === '--discard-prev') {
+                                if (i >= 1 && arr[i - 2] !== "--discard-next") {
+                                  newArr.pop()
+                                }
+                             }else if(arr[i] === "--double-next") {
+                               if(arr.length - i >= 2) {
+                                 newArr.push(arr[i+1])
+                               }
+                             }else if(arr[i] === "--double-prev") {
+                               if(i >= 1 && arr[i-2] !== "--discard-next") {
+                                 newArr.push(arr[i-1])
+                               }
+                             } else {
+                              newArr.push(arr[i])
+                            }
+                            }
+                            return newArr
+                          };
+                    </pre></code>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="education" id="Education">
+            <div class="container">
+                <h1 class="ed-title">Education</h1>
+                <ul class="ed-list">
+                    <li>Academy of MIA (2014 specialist)</li>
+                    <li>Belorussian State Economic University (student)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="ebglish" id="Eng">
+            <div class="container">
+                <h1 class="eng-title">English</h1>
+                <p class="eng-text">My level of English is B1 and I continue to study it with a tutor</p>
+            </div>
+        </section>
+        
+                   
+    </main>
+    <footer>
+        <p>©Yaugheni Tsimakhovich</p>
+        <p>+375(44)7301827</p>
+    </footer>
+    
+</body>
+</html>
