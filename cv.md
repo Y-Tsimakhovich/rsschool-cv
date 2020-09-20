@@ -11,8 +11,8 @@
 ## Summary
 
   *I want to become a front-end develover. 
-  I graduated from the Belorussian-Russian university in 2017 and received master's degree in 2018. 
-  Currently working as a process engineer
+  I graduated from the Academy of MIA in 2014. 
+  Currently working as a jurist
   My strengths are stress resistance, the desire to learn something new, I learn quickly and am attentive to the little things in my work.*
   
 ## Skills 
