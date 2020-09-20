@@ -4,7 +4,7 @@
   
 ## Contact
 
-  * e-mail: 7301827@protonmail;
+  * e-mail: 7301827@protonmail.com;
   * phone: +375(44)7301827
   * Telegram: @tievan__
   
