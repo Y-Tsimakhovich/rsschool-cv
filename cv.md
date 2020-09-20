@@ -61,4 +61,4 @@
   
 ## English
 
-  English (B1)
+  English (B1).   
